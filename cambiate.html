@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	  <meta name="description" content="">
+	  <meta name="author" content="">
+
+	  <title>Home</title>
+
+	  <!-- CDN Bootstrap 4 -->
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+
+	  <!-- Theme CSS - Includes Bootstrap -->
+	  <link href="main.css" rel="stylesheet">
+
+	</head>
+<body>
+	<div class="container">
+		<nav class="navbar custom-navbar navbar-expand-lg navbar-light">
+		  <a class="navbar-brand" href="#">
+		  	<img src="img/logo.png" alt="logo">
+		  </a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Cambiate</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="review.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reviews</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="show-review.html">Ver Reviews</a>
+		          <a class="dropdown-item" href="#">Hacer Revies</a>
+		        </div>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Boton Pilas</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="leer.html">Ver Pilas</a>
+		          <a class="dropdown-item" href="pilas.html">Advierte a tu compañía</a>
+		        </div>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Calificar Compañias</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Ver como usuario</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sobre MAIQ</a>
+		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#">Conoces más de MAIQ </a>
+		          <a class="dropdown-item" href="#">Quiénes están detrás de MaiQ</a>
+		        </div>
+		      </li>
+		    </ul>
+		    <form class="form-inline my-2 my-lg-0">
+		      <button class="btn my-2 my-sm-0" type="submit">Ir al Blog</button>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle custom-dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		        	<img src="img/icon-men.png" height="20">
+		          Andres Hernandez
+		        </a>
+		        <div class="dropdown-menu custom-menu" aria-labelledby="navbarDropdown">
+		          <a class="dropdown-item" href="#" data-toggle="modal" data-target="#modalVerified">Ver mi perfil</a>
+		          <a class="dropdown-item" href="#">Cerrar Sesión</a>
+		        </div>
+		      </li>
+		    </form>
+		  </div>
+		</nav>
+	</div>
+
+	<div class="section-banner">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="content-text-banner">
+						<h1>Aquí, la mejor forma de<br> quejarse, es cambiarse.</h1>
+						<p>Aceptémoslo. Hasta hoy, lo más que uno puede hacer si tiene algún problema con una compañía, es quejarse esperando generar Likes y comentarios de solidaridad.<br><br>
+						Pero en MaiQ, no tienes que sufrir esperando que tu opinión se oiga o pidiendo recomendaciones sobre otras compañías. Aquí te registras, y son las compañías las que te hacen ofertas para que tú escojas la que te parezca más valiosa.</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="pt-4">
+						<img src="img/men-banner.png">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="text-center p-4">
+			<span class="content-span">pasos para cambiarte</span>
+			<h3>Este es el sencillo proceso que debes seguir para cambiarte de compañía:</h3>
+		</div>
+
+		<div class="content-details-utils" style="display: none;">
+			<div class="row">
+				<div class="col">
+					<div class="details-utils text-center">
+						<img src="img/utils-img1.png">
+						<h2 class="c-primary font-weight-bold">01.</h2>
+						<p>Nos cuentas quién eres y cuál es tu compañía actual</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="details-utils text-center custom-position">
+						<img src="img/utils-img2.png">
+						<h2 class="c-primary font-weight-bold">02.</h2>
+						<p>Te presentamos las mejores ofertas que la categoría tiene para ti</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="details-utils text-center custom-position">
+						<img src="img/utils-img3.png">
+						<h2 class="c-primary font-weight-bold">03.</h2>
+						<p>Seleccionas la oferta que más se acomoda a lo que necesitas</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="details-utils text-center custom-position">
+						<img src="img/utils-img4.png">
+						<h2 class="c-primary font-weight-bold">04.</h2>
+						<p>Acepta recibir la oferta comercial de la compañía</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="details-utils text-center">
+						<img src="img/utils-img5.png">
+						<h2 class="c-primary font-weight-bold">05.</h2>
+						<p>Espera a que te contacte el asesor de la compañía</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="p-3 text-center" style="display: none;">
+			<button type="buttn" class="btn custom-btn-default">Mostrar Pasos</button>
+		</div>
+
+		<div class="content-section-change">
+			<div class="text-center p-4">
+				<span class="content-span">Cámbiate</span>
+				<h1>Cámbiate en 5 minutos</h1>
+			</div>
+			<div class="section-change">
+				<div class="content-timeline d-flex justify-content-center">
+					<div class="timeline timeline-b-blue-light timeline-p">
+						<div class="content-number">01</div>
+					</div>
+					<div class="content-text">
+						<div>¿Quién eres?</div>
+					</div>
+					<div class="line-timeline-details line-timeline-details-b-blue-light"></div>
+					<div class="timeline timeline-b-orange timeline-p">
+						<div class="content-number">02</div>
+					</div>
+					<div class="content-text">
+						<div>¿Por qué quieres<br> cambiarte?</div>
+					</div>
+					<div class="line-timeline-details line-timeline-details-orange"></div>
+					<div class="timeline timeline-b-orange timeline-p">
+						<div class="content-number">03</div>
+					</div>
+					<div class="content-text">
+						<div>Conoce la<br> Categoría</div>
+					</div>
+					<div class="line-timeline-details line-timeline-details-orange"></div>
+					<div class="timeline timeline-b-orange timeline-p">
+						<div class="content-number">04</div>
+					</div>
+					<div class="content-text">
+						<div>Selecciona<br> una Oferta</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="content-section-steps">
+			<div class="section-steps" style="display: none;">
+				<h3 class="mb-3">Primero, necesitamos saber quién eres</h3>
+				<p>Como las compañías quieren hacerte ofertas reales, con beneficios reales, necesitamos conocer tus datos exactos. <br>Si no sabes cuánto pagas hoy en día, verifícalo en tu factura o súbela como imagen si te parece más fácil.</p>
+				<div class="text-center content-form" style="display: none;">
+					<form>
+						<div class="custom-btns-socials">							
+							<a href="#" class="btn btn-facebook border-0 bc-dark-blue c-default">
+							  	<img src="img/form-icon-facebook.png" class="img-fluid">
+							  	<span class="pl-4">Conectarse con Facebook</span>
+							</a>
+							<span class="pl-3 pr-3">ó</span>
+							<a href="#" class="btn btn-facebook border-0 bc-light-blue c-default">
+							  	<img src="img/form-icon-google.png" class="img-fluid">
+							  	<span class="pl-4">Conectarse con Google</span>
+							</a>
+						</div>
+						<div class="content-fields-form">
+							<div class="form-group row">
+							    <label for="inputEmail3" class="col-sm-2 col-form-label text-right">Nombre</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="text" class="form-control" id="inputFirstname" placeholder="Nombre">
+							    </div>
+							    <label for="inputEmail3" class="offset-sm-1 col-sm-2 col-form-label text-right">Apellido</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="text" class="form-control" id="inputLAstname" placeholder="Apellido">
+							    </div>
+						  	</div>
+							<div class="form-group row">
+							    <label for="inputEmail3" class="col-sm-2 col-form-label text-right">Email</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+							    </div>
+							    <label for="inputEmail3" class="offset-sm-1 col-sm-2 col-form-label text-right">Celular</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="text" class="form-control" id="inputPhone" placeholder="Celular">
+							    </div>
+						  	</div>
+						  	<div class="form-group row">
+							    <label for="inputEmail3" class="col-sm-2 col-form-label text-right">Ciudad</label>
+							    <div class="col-sm-3 p-0">
+							      	<select class="custom-select">
+										<option selected>Bogotá</option>
+									  	<option value="1">Medellín</option>
+									  	<option value="3">Cali</option>
+									</select>
+							    </div>
+							    <label for="inputEmail3" class="offset-sm-1 col-sm-2 col-form-label text-right">Genero</label>
+							    <div class="col-sm-3 p-0">
+							      	<select class="custom-select">
+										<option selected>Seleccione</option>
+									  	<option value="1">Masculino</option>
+									  	<option value="2">Femenino</option>
+									</select>
+							    </div>
+						  	</div>
+						  	<div class="form-group row">
+							    <label for="inputEmail3" class="col-sm-2 col-form-label text-right">Fechas de nacimiento</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="text" class="form-control custom-input-date" id="inputDate" placeholder="Fecha nacimiento">
+							    </div>
+							    <label for="inputEmail3" class="offset-sm-1 col-sm-2 col-form-label text-right">Contraseña</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="password" class="form-control custom-input-password" id="inputPassword" placeholder="First name">
+							    </div>
+						  	</div>
+						  	<hr>
+						  	<div class="form-group row">
+							    <label for="inputEmail3" class="col-sm-2 col-form-label text-right">Categoría</label>
+							    <div class="col-sm-3 p-0">
+							      	<select class="custom-select">
+										<option selected>Seleccione Categoria</option>
+									  	<option value="1">a</option>
+									  	<option value="3">b</option>
+									</select>
+							    </div>
+							    <label for="inputEmail3" class="offset-sm-1 col-sm-2 col-form-label text-right">Compañía</label>
+							    <div class="col-sm-3 p-0">
+							      	<select class="custom-select">
+										<option selected>Seleccione Compañía</option>
+									  	<option value="1">FA</option>
+									  	<option value="2">BE</option>
+									</select>
+							    </div>
+						  	</div>
+						  	<div class="form-group row">
+							    <label for="inputEmail3" class="col-sm-2 col-form-label text-right">Servicio</label>
+							    <div class="col-sm-3 p-0">
+							      	<select class="custom-select">
+										<option selected>Seleccione Servicio</option>
+									  	<option value="1">Servicio 1</option>
+									  	<option value="3">Servicio 2</option>
+									</select>
+							    </div>
+							</div>
+							<hr>
+
+							<div class="form-group row">
+							    <div class="offset-sm-1 col-sm-6">
+							    	<div for="inputEmail3" class="text-left">¿Cuánto pagas hoy en día?</div>
+							    </div>
+							    <div class="col-sm-5">
+							    </div>
+							</div>
+							<div class="form-group row">
+							    <div class="offset-sm-1 col-sm-6">
+							    	<img src="img/slider-line.png" class="img-fluid w-100">
+							    	<div class="text-right">
+							    		<span class="float-left">$10K</span>
+							    		<span>$1M</span>
+							    	</div>
+							    </div>
+							    <div class="offset-sm-1 col-sm-4">
+						    		<div class="text-right content-text-logo">
+						    			Sube la imagen <br>de tu factura (opcional).
+						    		</div>
+						    		<div class="content-logo-upload">
+						    			<img src="img/logo-upload.png">
+						    		</div>	
+							    </div>
+							</div>
+							<div class="form-group row content-value">
+								<label for="inputEmail3" class="col-sm-2 col-form-label text-right">Valor</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="text" class="form-control font-weight-bold" id="inputDate" placeholder="$40.000">
+							    </div>
+							</div>
+							<div class="content-btn-next">
+								<button type="button" class="btn custom-btn">Siguiente</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="row content-section" style="display: none;">
+					<div class="col-sm-4">
+						<div class="content-section-chekbox">
+							<h6>¿Por qué razón quieres cambiarte?</h6>
+							<p>Selecciona una de las siguientes opciones o cuéntanos con tus palabras cuál sería tu razón de cambio:</p>
+							<div class="custom-control custom-radio">
+						      <input type="radio" class="custom-control-input" id="customRadio1" name="example1">
+						      <label class="custom-control-label" for="customRadio1">Servicio</label>
+						    </div>
+						    <div class="custom-control custom-radio">
+						      <input type="radio" class="custom-control-input" id="customRadio2" name="example2">
+						      <label class="custom-control-label" for="customRadio2">Producto</label>
+						    </div>
+						    <div class="custom-control custom-radio">
+						      <input type="radio" class="custom-control-input" id="customRadio3" name="example3">
+						      <label class="custom-control-label" for="customRadio3">Precio</label>
+						    </div>
+						    <div class="custom-control custom-radio">
+						      <input type="radio" class="custom-control-input" id="customRadio4" name="example4">
+						      <label class="custom-control-label" for="customRadio4">Valor agregado</label>
+						    </div>
+						    <div>
+						    	Otro / Detalle:
+						    </div>
+						   	<textarea></textarea>
+						</div>
+					</div>
+					<div class="offset-sm-2 col-sm-6">
+						<div class="content-section-questions">
+							<h6 class="mb-4">¿Estarías disupuesto a pagar más por tu servicio?</h6>
+							<div class="content-btn-true-false">
+								<button type="button" class="btn btn-true">Si</button>
+								<button type="button" class="btn ml-5 btn-false">No</button>
+							</div>
+							<hr>
+							<h6>¿Cuánto más estarías dispuesto a pagar?</h6>
+							<img src="img/slider-line.png" class="img-fluid w-100">
+					    	<div class="text-right">
+					    		<span class="float-left">$10K</span>
+					    		<span>$1M</span>
+					    	</div>
+					    	<div class="form-group row content-value">
+								<label for="inputEmail3" class="col-sm-2 col-form-label">Valor</label>
+							    <div class="col-sm-3 p-0">
+							      <input type="text" class="form-control font-weight-bold" id="inputDate" placeholder="$40.000">
+							    </div>
+							</div>
+							<hr>
+							<h6 class="mb-4">¿Por qué estarías dispuesto a pagar más?</h6>
+							<div class="form-group">
+							    <input type="text" class="form-control" id="exampleInputText" placeholder="Ej: Por un plan de 50 Mb.">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="text-center pt-5 pb-4">
+					<button type="button" class="btn custom-btn-default">Anteior</button>					
+					<button type="button" class="btn custom-btn ml-4">Conoce la catagoria</button>					
+				</div>				
+			</div>
+			<div class="section-category">
+				<div class="row b-b pb-5">
+					<div class="col-sm-8">
+						<h3>Así se comporta la categoría</h3>
+						<p>Estos son los indicadores generales de la categoría en la que te quieres cambiar.<br>Revísalos para que puedas tomar una decisión inteligente sobre a qué compañía cambiarte.</p>
+					</div>
+					<div class="col-sm-4 justify-content-end d-flex align-center">
+						<div class="text-right">
+							<button type="button" class="btn btn-show-category">Ver toda la categoría</button>
+						</div>
+					</div>
+				</div>
+				<div>
+					<h1>Telefonía</h1>
+					<h3 class="d-inline-block">Nivel de recomendación</h3>
+					<h2 class="d-inline-block">$(4)/10</h2>
+					<div class="row">
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+						<div class="col text-center">
+							<img src="img/logo-claro.png">
+							<span>$(6)/10</span>
+						</div>
+					</div>
+					<div class="content-date">
+						<div class="date-from d-inline-block">
+							<span>Desde:</span>
+							<img src="img/icon-calendar.png">
+							<input type="text" name="">
+						</div>
+						<div class="date-to ml-4 d-inline-block">
+							<span>Hasta:</span>
+							<img src="img/icon-calendar.png">
+							<input type="text" name="">
+						</div>
+						<div class="float-right">
+							<span>Rango Pilas:</span>
+							<div class="d-inline-block">
+								<select class="custom-select mr-3">
+								  <option selected="">Entre 1.000 y 10.000</option>
+								  <option value="1">One</option>
+								  <option value="2">Two</option>
+								  <option value="3">Three</option>
+								</select>
+							</div>
+							
+						</div>
+					</div>
+					<div class="content-image-graphic">
+						<img src="img/graphic.png" class="w-100">
+					</div>
+					<div class="content-tips">
+						<div class="row">
+
+							<h2>Antes de elegir, ten en cuenta</h2>
+							<div class="col-sm-6">
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-4"></div>
+									<div class="col-sm-4"></div>
+								</div>
+								<div class="row">
+									<div class="col-sm-4"></div>
+									<div class="col-sm-4"></div>
+									<div class="col-sm-4"></div>
+								</div>
+							</div>
+							<div class="offset-sm-1 col-sm-5">
+								
+							</div>
+
+						</div>						
+					</div>
+				</div>				
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+	<div class="content-footer">
+		<footer class="container">
+			<div class="row">
+				<div class="col-sm-3 custom-d-flex mb-2">
+					<div class="content-logo-footer">
+						<img src="img/logo-banner.png">
+					</div>
+				</div>
+				<div class="col-sm-4">
+					<div class="content-utils">
+						<button type="button" class="btn btn-register mb-4">Regístrate <span class="arrow-right"><img src="img/arrow-right-b.png"></button>
+						<div class="content-tools"><img src="img/arrow-right.png">Conoce nuestro Manifiesto</div>
+						<div class="content-tools"><img src="img/arrow-right.png">Conoce nuestra política de servicio</div>
+						<div class="content-tools"><img src="img/arrow-right.png">Cuéntale a otros sobre MaiQ</div>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<div class="content-contact">
+						<div class="question">¿Tienes dudas?</div>
+						<li>
+							<span class="item first-item b-r">
+								<img src="img/icon-message.png" height="20" width="20"> Chateemos
+							</span>
+							<span class="item b-r second-item">
+								<img src="img/icon-phone.png" height="20" width="20"> Te llamamos
+							</span>
+							<span class="item third-item">
+								<img src="img/icon-inbox.png" height="20" width="20"> Escribenos
+							</span>
+						</li>
+						<a href="#">Carta a las compañías</a>
+					</div>
+				</div>
+			</div>
+			
+		</footer>
+		<div class="content-info-footer">
+				<div class="container">
+					<ul>
+						<li>
+							<a href="#">Términos y condiciones</a>
+						</li>
+						<li>
+							<a href="#">Politica de privacidad</a>
+						</li>
+						<li>
+							<a href="#">Politica de datos</a>
+						</li>
+						<li>
+							<a href="#">Sobre las Cookies</a>
+						</li>
+					</ul>
+					<div class="entitlements">
+						Todos los derechos reservados. MaiQ. 2019
+					</div>
+				</div>
+			</div>
+	</div>
+
+	<!-- The Modal -->
+	<div class="modal fade modal-verified" id="modalVerified" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title" id="exampleModalLongTitle">Verifica que eres tú</h5>
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">Cerrar &times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <p class="m-0">Acabamos de enviar a tu correo electrónico y a tu celular un código de 6 digitos para verificar tu cuenta.</p>
+	        <p class="mb-5">Cuando lo recibas, verifícalo aquí:</p>
+	        <hr>
+	        <div class="m-4">
+	        	<span>Código:</span>
+	        	<input type="text" name="" class="mr-4 ml-4">
+	        	<button type="button" class="btn custom-btn">Verificar<span class="arrow-right"><img src="img/arrow-right.png"></span></button>
+	        </div>
+	        <hr>
+	        <p class="m-4">¿Aún no has recibido ningún código? <a href="" class="c-primary"><u>Volver a intentar</u></a></p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	 <!-- End Modal -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
