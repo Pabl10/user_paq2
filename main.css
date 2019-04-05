@@ -324,7 +324,7 @@ body {
 	margin: 0 auto;
 }
 
-.content-section-steps .section-steps .content-form .content-fields-form .custom-select {
+.custom-select {
     background-image: url(img/arrow-bottom.png);
     background-size: 10%;
     height: auto;
@@ -444,9 +444,61 @@ body {
 	background-color: #fff;
 }
 
+.content-section-steps .section-category .content-info-phone h1 {
+	font-size: 48px;
+	font-weight: 500;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
 
+.content-section-steps .section-category .content-info-phone h2 {
+	font-weight: 600;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 38px;
+}
 
+.content-section-steps .section-category .content-card {
+	padding: 40px 20px;
+}
 
+.content-section-steps .section-category .content-tips .number-tips {
+	font-size: 60px;
+	font-weight: 600;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+	color: color: rgba(40, 40, 40, 255);
+}
+
+.content-section-steps .section-category .content-tips .c-position-top {
+	position: relative;
+	top: -45px;
+}
+
+.content-section-steps .section-category .content-tips .content-detials-tips h4 {
+	font-size: 16px;
+	font-weight: 600;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.content-section-steps .section-category .content-tips .content-detials-tips h5 {
+	font-weight: 400;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: #ff4c44;
+}
+
+.content-section-steps .section-category .content-tips .content-detials-tips h6 {
+	font-size: 14px;
+	font-weight: 600;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+	margin-bottom: 30px;
+}
+
+.content-section-steps .section-category .content-tips .content-detials-tips .service {
+	font-size: 16px;
+	font-weight: 300;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+	margin-bottom: 16px;
+	display: block;
+}
 
 
 
