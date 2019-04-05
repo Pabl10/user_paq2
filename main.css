@@ -49,7 +49,7 @@ body {
 }
 
 .bc-primary {
-	background-color: #282828;
+	background-color: #fafafd;
 }
 
 .bc-secundary {
@@ -200,6 +200,12 @@ body {
     max-width: 95%;
 }
 
+.img-backgorund {
+	background-image: url('img/back.png');
+	background-size: cover;
+	width: 100%;
+}
+
 .content-text-banner {
 	padding: 70px 0 55px 0;
 }
@@ -302,7 +308,6 @@ body {
 
 /* Form */
 .content-section-steps .section-steps .content-form .custom-btns-socials {
-	border-bottom: 1px solid;
 	padding: 40px 20px 50px 20px;
 }
 
@@ -429,7 +434,7 @@ body {
 
 .content-section-steps .section-steps .content-section-questions .content-btn-true-false .btn.btn-false {
 	background-color: #fff;
-	border: 1px solid #2b2b2b;
+	border: 1px solid rgba(0,0,0,.1);
 } 
 
 .content-section-steps .section-category .btn-show-category{
