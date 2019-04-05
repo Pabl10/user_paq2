@@ -52,6 +52,10 @@ body {
 	background-color: #fafafd;
 }
 
+.bc-grey {
+	background-color: #282828;
+}
+
 .bc-secundary {
 	background-color: #ff4c44;
 }
@@ -571,22 +575,21 @@ body {
 }
 
 /* CARD */
-
-.content-section-steps .section-select-offer .content-card-offer .header-card {
+.content-card-offer .header-card {
 	padding: 20px 10px;
 }
 
-.content-section-steps .section-select-offer .content-card-offer .header-card .logo-header {
+.content-card-offer .header-card .logo-header {
 	vertical-align: bottom;
 }
 
-.content-section-steps .section-select-offer .content-card-offer .header-card .content-logo-dest {
+.content-card-offer .header-card .content-logo-dest {
 	position: absolute;
 	right: 40px;
 	top: -5px;
 }
 
-.content-section-steps .section-select-offer .content-card-offer .header-card .title-header-card {
+.content-card-offer .header-card .title-header-card {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
@@ -595,11 +598,11 @@ body {
 	margin-left: 20px;
 }
 
-.content-section-steps .section-select-offer .content-card-offer .body-card {
+.content-card-offer .body-card {
 	height: 425px;
 }
 
-.content-section-steps .section-select-offer .content-card-offer .body-card span {
+.content-card-offer .body-card span {
 	font-weight: 600;
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 	font-size: 12px;
@@ -607,29 +610,75 @@ body {
 
 /* Details Offer */ 
 
-.content-section-steps .section-select-offer .section-details-offer .title-details {
+.section-details-offer .title-details {
 	padding: 30px;
 }
 
-.content-section-steps .section-select-offer .section-details-offer .details-atributes ul{
+.section-details-offer .details-atributes ul{
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-/* formalize-physical */
-.content-section-steps .section-formalize-physical .formalize-physical{
+/* formalize-digital */
+.content-section-steps .section-formalize-digital .formalize-digital{
 	padding: 80px 40px;
 }
 
-.content-section-steps .section-formalize-physical .formalize-physical h5 {
+.content-section-steps .section-formalize-digital .formalize-digital h5 {
 	font-size: 18px;
 	font-weight: 500;
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
+/* TYP */ 
+
+.title-TYP {
+	font-size: 60px;
+	color: #ff4c44;
+}
+
+.subtitle-TYP {
+	font-size: 24px !important;
+}
+
+.content-frames {
+	padding: 40px 110px;
+}
+
+.content-frames .content-details {
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.1);
+	padding: 60px;
+	height: 500px;
+	margin-bottom: 30px;
+}
 
 
+.content-frames .content-details h2 {
+	font-size: 30px;
+	font-weight: 500;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+	color: #2b2b2b;
+}
+
+.content-frames .content-details p {
+	color: #282828;
+	font-size: 16px;
+	margin: 40px 0;
+	font-weight: 300;
+	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.content-socials ul {
+	display: inline-block;
+	padding: 0;
+}
+.content-socials ul li {
+	display: inline;
+}
 
 
 
