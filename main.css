@@ -104,6 +104,10 @@ body {
 	max-width: 80%;
 }
 
+.custom-ptb-15 {
+	padding: 15px 0 !important;
+}
+
 .custom-shadow {
 	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
@@ -538,7 +542,7 @@ body {
 
 /* Selecion de oferta */
 .content-section-steps .section-select-offer .custom-radio .custom-control-label::before{
-	border: 1px solid #2b2b2b;
+	border: 1px solid #e8e8e8;
 }
 
 .content-section-steps .section-select-offer .filters {
@@ -562,6 +566,11 @@ body {
 
 .content-section-steps .section-select-offer .content-item ul li {
 	margin-bottom: 15px;
+	background-color: #fff;
+}
+
+.content-section-steps .section-select-offer .content-item ul li:nth-child(odd) {
+	background-color: #fafafa;
 }
 
 .content-section-steps .section-select-offer .content-item ul li .custom-control {
@@ -598,10 +607,6 @@ body {
 	margin-left: 20px;
 }
 
-.content-card-offer .body-card {
-	height: 425px;
-}
-
 .content-card-offer .body-card span {
 	font-weight: 600;
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -622,13 +627,18 @@ body {
 
 /* formalize-digital */
 .content-section-steps .section-formalize-digital .formalize-digital{
-	padding: 80px 40px;
+	padding: 55px 40px;
 }
 
 .content-section-steps .section-formalize-digital .formalize-digital h5 {
 	font-size: 18px;
 	font-weight: 500;
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+/* formalize-fisical*/
+.content-section-steps .section-formalize-physical .formalize-physical {
+	padding: 55px 40px;
 }
 
 /* TYP */ 
