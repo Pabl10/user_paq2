@@ -540,7 +540,7 @@ body {
 	font-size: 60px;
 	font-weight: 600;
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-	color: color: rgba(40, 40, 40, 255);
+	color: rgba(40, 40, 40, 255);
 }
 
 .content-section-steps .section-category .content-tips .c-position-top {
@@ -1155,4 +1155,160 @@ body {
 	right: 0;
 	color: #fff;
 	display: inline-block;
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+	.custom-btn, .custom-btn-default {
+		font-size: 14px;
+		padding: 4px 12px;
+	}
+
+	.text-right {
+		text-align: start !important;
+	}
+
+	.pr-5 {
+		padding-right: 15px !important;
+	}
+
+	.pb-5, .py-5 {
+		padding-bottom: 15px !important;
+	}
+
+	.pl-4, .px-4 {
+		padding-left: 0 !important;
+	}
+
+	.pt-5, .py-5 {
+		padding-top: 15px !important;
+	}
+
+	.mt-5, .my-5 {
+		margin-top: 15px !important;
+	}
+
+	.ml-5, .mx-5 {
+		margin-left: 15px !important;
+	}
+
+	.mb-5, .my-5 {
+		margin-bottom: 15px !important;
+	}
+
+	.w-80 {
+		max-width: 100% !important;
+	}
+
+	h1, h2, h3 {
+		font-size: 18px !important;
+	}
+
+	p {
+		font-size: 12px !important;
+	}
+
+	.content-text-banner {
+		padding: 30px 0;
+	}
+
+	.content-details-utils {
+		padding: 15px 0;
+	}
+
+	.section-change .content-timeline {
+		padding-bottom: 50px;
+	}
+
+	.section-change .content-timeline .content-text div {
+		font-size: 10px;
+	}
+
+	.section-change .content-timeline .line-timeline-details {
+		width: 38px;
+	}
+
+	.section-change .content-timeline .timeline.timeline-p .content-number {
+		font-size: 15px;
+	}
+
+	.content-section-steps .section-steps .content-section {
+		padding: 20px;
+	}
+
+	.content-section-steps .section-steps .content-form .content-fields-form {
+		padding: 0;
+		max-width: 90%;
+	}
+	.content-section-steps .section-formalize-digital .formalize-digital, .content-section-steps .section-formalize-physical .formalize-physical {
+		padding: 20px;
+	}
+
+	.content-section-steps .section-steps .content-form .custom-btns-socials {
+		padding: 15px;
+	}
+
+	.content-section-steps .section-steps .content-form .custom-btns-socials .btn-facebook {
+		width: 100%;
+	}
+
+	.content-section-steps .section-steps .content-section-questions .content-btn-true-false .btn {
+		padding: 8px 16px;
+		font-size: 14px;
+	}
+	.content-section-steps .section-steps .content-section-questions hr {
+		margin: 20px 0;
+	}
+
+	.content-section-steps .section-category .content-tips .number-tips {
+		font-size: 40px;
+	}
+
+	.content-section-steps .section-category .content-tips .c-position-top {
+		top: 0;
+	}
+
+	.title-TYP {
+		font-size: 40px;
+	}
+
+	.subtitle-TYP {
+		font-size: 12px !important;
+	}
+
+	.content-frames, .content-frames .content-details {
+		height: auto;
+		padding: 15px;
+		margin-bottom: 15px;
+	}
+
+	.content-frames, .content-frames .content-details button {
+		padding: 4px 12px;
+		font-size: 12px;
+	}
+
+
+	.content-footer {
+		padding: 15px 0 0;
+	}
+	.content-footer .content-contact li .item {
+		display: block;
+		border: 0;
+		padding: 10px 10px 10px 0;
+	}
+	.content-footer .content-info-footer {
+		margin-top: 20px;
+		padding: 15px 0;
+	}
+	.content-footer .content-info-footer ul li {
+		display: block;
+	}
+	.content-footer .content-info-footer .entitlements {
+		position: relative;
+	}
+
+	.content-footer .content-contact li {
+		margin-bottom: 15px;
+		padding: 15px 0;
+	}
 }
