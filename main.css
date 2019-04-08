@@ -137,7 +137,7 @@ body {
 }
 
 .f-12 {
-	font-size: 12px;
+	font-size: 12px !important;
 }
 
 .f-14 {
@@ -161,6 +161,11 @@ body {
 .custom-d-flex {
 	display: flex;
 	align-items: center;
+	justify-content: center;
+}
+
+.c-d-f {
+	display: flex;
 	justify-content: center;
 }
 
@@ -985,7 +990,8 @@ body {
 }
 
 .section-comunication {
-	text-align: center;
+	max-width: 75%;
+	margin: 0 auto;
 }
 
 .section-comunication .comunication{
@@ -993,10 +999,35 @@ body {
 	padding: 20px 60px 20px 15px;
 }
 
+.section-products .content-products{
+	padding: 60px;
+}
 
+.section-payment {
+	padding: 100px;
+	text-align: center;
+}
 
+.section-payment .content-utils {
+	display: inline-block;
+	padding: 0 50px;
+}
 
+.section-payment .content-utils span {
+	padding: 15px 0;
+	display: block;
+}
 
+.section-linkage {
+	padding: 60px;
+}
+
+.section-actions .btn-recomended {
+	border:1px solid #ff4c44;
+	background-color: transparent;
+	color: #ff4c44;
+	padding: 8px;
+}
 
 
 
