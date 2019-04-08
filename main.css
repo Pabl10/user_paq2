@@ -6,19 +6,19 @@
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
-/*
+
 .regular {
-	 Montserrat Regular = 400
+	 /*Montserrat Regular = 400*/
 	font-weight: 400;
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
 }
 
 
 .medium {
-	 Montserrat Medium = 500 
+	/* Montserrat Medium = 500 */
 	font-weight: 500;
 	font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
-}*/
+}
 
 .semibold {
 	/*Montserrat Semi-bold = 600 */
@@ -44,8 +44,8 @@ body {
 }
 
 .active {
-	background-color: #ff4c44;
-	color: #fff;
+	background-color: #ff4c44 !important;
+	color: #fff !important;
 }
 
 .bc-primary {
@@ -142,6 +142,10 @@ body {
 
 .f-14 {
 	font-size: 14px;
+}
+
+.f-60 {
+	font-size: 60px;
 }
 
 .border-l {
@@ -935,11 +939,59 @@ body {
 	padding: 50px 0;
 }
 
+/* LANDING COMPAÑIA **/
 
+.section-header {
+	padding: 20px 0;
+}
 
+.content-comment {
+	padding: 0 20px;
+}
 
+.content-comment .title {
+	padding: 16px 30px;
+	background-color: #fafafd;
+}
 
+.content-comment .title.active a {
+	color: #fff;
+}
 
+.content-comment .title a {
+	font-size: 14px;
+	color: #000;
+}
+
+.content-comment .title a:hover {
+	text-decoration: none;
+}
+
+.content-comment-logo img{
+	border-radius: 50%;
+}
+
+.section-change img {
+	vertical-align: top;
+}
+
+.section-change .content-change {
+	width: 48%;
+	display: inline-block;
+}
+
+.section-description {
+	padding: 25px 45px;
+}
+
+.section-comunication {
+	text-align: center;
+}
+
+.section-comunication .comunication{
+	display: inline-block;
+	padding: 20px 60px 20px 15px;
+}
 
 
 
