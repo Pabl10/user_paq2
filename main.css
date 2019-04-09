@@ -1367,6 +1367,70 @@ body {
 	.body-card .custom-btn-default {
 		margin-bottom: 10px;
 	}
+
+	/* PAGE Compania */
+	.section-atencion img {
+		width: 100%;
+	}
+	.section-header span {
+		font-size: 10px;
+	}
+	.f-12 {
+		font-size: 10px !important;
+	}
+	.f-14 {
+		font-size: 12px !important;
+	}
+	.f-60 {
+		font-size: 40px;
+	}
+	.content-comment .title {
+		padding: 10px 20px;
+	}
+	.section-change {
+		margin-top: 15px;
+	}
+	.section-description {
+		padding: 0;
+	}
+	.section-products .content-products {
+		padding: 10px;
+	}
+	.section-products .content-products .c-d-f {
+		display: block;
+	}
+	.section-payment {
+		padding: 0px;
+	}
+	.section-payment .content-utils {
+		padding: 0 10px;
+		margin-bottom: 25px;
+	}
+	.section-linkage {
+		padding: 0;
+	}
+	.section-comunication {
+		max-width: 100%;
+	}
+	.section-comunication h4 {
+		font-size: 16px;
+	}
+	.section-comunication .comunication {
+		display: block;
+		margin: 0 0 12px 0!important;
+	}
+	.section-comunication .p-5 {
+		padding: 10px !important;
+	}
+	.section-comunication .section-actions .custom-btn {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.section-comunication .section-actions .btn-recomended {
+		width: 100%;
+		margin: 0 !important;
+		padding: 6px 12px;
+	}
 }
 
 /* Version Tablet */
