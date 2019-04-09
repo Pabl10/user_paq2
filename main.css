@@ -789,10 +789,6 @@ body {
 	border-top:1px solid #505050;
 }
 
-.section-guide-category .guide-category .text-category .footer-category {
-	
-}
-
 .section-guide-category .guide-category .text-category .footer-category input {
 	width: 48%;
 	display: inline-block;
@@ -1028,15 +1024,6 @@ body {
 	color: #ff4c44;
 	padding: 8px;
 }
-
-
-
-
-
-
-
-
-
 
 /* Modal */ 
 
@@ -1287,7 +1274,6 @@ body {
 		font-size: 12px;
 	}
 
-
 	.content-footer {
 		padding: 15px 0 0;
 	}
@@ -1310,5 +1296,148 @@ body {
 	.content-footer .content-contact li {
 		margin-bottom: 15px;
 		padding: 15px 0;
+	}
+
+	/* PAGE Categoria*/
+	.section-select-category .col {
+		margin-bottom: 10px;
+	}
+	.section-select-category p {
+		margin-bottom: 15px;
+	}
+	.section-price-category .subtitle-price {
+		font-size: 8px;
+	}
+	.section-price-category .col {
+		flex-basis: auto;
+	}
+	.section-price-category .c-height-100 {
+		height: auto;
+		margin-bottom: 15px;
+	}
+	.section-steps-category .steps-category {
+		padding: 15px 0;
+	}
+	.card-body {
+		padding: 15px;
+	}
+	.card-columns .card.p-3 {
+		padding: 0!important;
+	}
+	.section-guide-category img {
+		width: 100%;
+	}
+	.section-guide-category .guide-category .features-list {
+		column-count: 2;
+	}
+	.section-guide-category .guide-category .text-category .footer-category input {
+		display: block;
+		width: 100%;
+		padding: 6px 12px;
+		margin-bottom: 10px;
+	}
+	.section-guide-category .guide-category .text-category .footer-category .btn-donwload {
+		display: block !important;
+		width: 100% !important;
+		margin: 0 !important;
+	}
+	.section-companies-category {
+		padding-top: 20px;
+	}
+	.section-companies-category .f-10 {
+		font-size: 8px !important;
+	}
+	.section-companies-category .f-12 {
+		font-size: 10px !important;
+	}
+	.section-companies-category .f-14 {
+		font-size: 12px !important;
+	}
+	.section-reviews-category .content-select select {
+		display: block;
+		width: 100%;
+		margin: 0 !important;
+	}
+	.content-btns-preview {
+		padding: 15px 0;
+	}
+	.content-card-offer {
+		margin-bottom: 15px;
+	}
+	.body-card .custom-btn-default {
+		margin-bottom: 10px;
+	}
+}
+
+/* Version Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+	.custom-btn, .custom-btn-default {
+		font-size: 14px;
+		padding: 4px 12px;
+	}
+
+	.text-right {
+		text-align: start !important;
+	}
+
+	.pr-5 {
+		padding-right: 15px !important;
+	}
+
+	.pb-5, .py-5 {
+		padding-bottom: 15px !important;
+	}
+
+	.pl-4, .px-4 {
+		padding-left: 0 !important;
+	}
+
+	.pt-5, .py-5 {
+		padding-top: 15px !important;
+	}
+
+	.mt-5, .my-5 {
+		margin-top: 15px !important;
+	}
+
+	.ml-5, .mx-5 {
+		margin-left: 15px !important;
+	}
+
+	.mb-5, .my-5 {
+		margin-bottom: 15px !important;
+	}
+
+	.w-80 {
+		max-width: 100% !important;
+	}
+	h1, h2, h3 {
+		font-size: 22px !important;
+	}
+
+	p {
+		font-size: 12px !important;
+	}
+	.section-select-category .col {
+		margin-bottom: 10px;
+	}
+	.section-price-category h1 {
+		font-size: 22px;
+	}
+	.section-price-category .subtitle-price {
+		font-size: 12px;
+	}
+	.section-steps-category .steps-category {
+		padding: 80px 0;
+	}
+	.card-body {
+		padding: 0;
+	}
+	.section-guide-category img {
+		width: 100%;
+	}
+	.section-guide-category .guide-category .text-category .footer-category input {
+		width: 46%;
+		padding: 6px 12px;
 	}
 }
